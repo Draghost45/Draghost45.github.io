@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SurveyProject.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking your time to help me improve my platform</p>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name <input type="text" name="name" id="name" placeholder="Name" required></label>
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email <input type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="age">Age(optional) <input type="number" name="age" id="number" placeholder="Age" pattern="\d+" min="1" max="100"> </label>
+        </div>
+        <div class="form-group">
+            <label id="selector-label" for="selector">Which option best describes this survey? 
+                <select id="dropdown" name="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">Very Nice</option>
+                    <option value="2">Good</option>
+                    <option value="3">Needs Improvement</option>
+                    <option value="4">Bad</option>    
+                </select>
+                </label>
+        </div>
+        <div class="form-group">
+            <p>Do you recommend this website to another person?</p>
+            <label><input type="radio" name="recommend-survey" id="radio-yes" value="yes" class="inline"checked> Yes</label>
+            <label><input type="radio" name="recommend-survey" id="radio-maybe" value="maybe" class="inline"> Maybe</label>
+            <label><input type="radio" name="recommend-survey" id="radio-no" value="no" class="inline"> No</label>
+        </div>
+        <div class="form-group">
+            <p>What are some features you would like to see be implemented in this survey? (check all that apply)</p>
+            <label><input type="checkbox" name="imporvements" id="checkbox-spelling" value="spelling" class="inline"> Spelling</label>
+            <label><input type="checkbox" name="imporvements" id="checkbox-color" value="color" class="inline"> Color Choice</label>
+            <label><input type="checkbox" name="imporvements" id="checkbox-creative" value="creative" class="inline"> Creative Design</label>
+            <label><input type="checkbox" name="imporvements" id="checkbox-structure" value="structer" class="inline"> Better Structure</label>
+            <label><input type="checkbox" name="imporvements" id="checkbox-animations" value="animations" class="inline"> Implement Animations</label>
+            <label><input type="checkbox" name="imporvements" id="checkbox-learning" value="learning" class="inline"> Keep</label>
+        </div>
+        <div class="form-group">
+            <p>Any other information that may help me improve this survey and website...</p>
+            <label for="other"><textarea name="other" id="other" cols="30" rows="10" class="textbox" placeholder="Something to write here"></textarea></label>
+        </div>
+        <div>
+            <label for="submit"><input type="submit" name="submit" id="submit" value="submit"></label>
+        </div>
+
+
+    </form>
+</body>
+</html>

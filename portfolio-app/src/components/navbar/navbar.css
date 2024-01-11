@@ -1,0 +1,22 @@
+.portfolio_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.portfolio_navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.portfolio_navbar-links_logo{
+    margin-right: 2rem;
+}
+
+.portfolio_navbar-links_logo img{
+    width: 62px;
+    height: 62px;
+}

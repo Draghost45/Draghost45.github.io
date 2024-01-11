@@ -1,6 +1,7 @@
 import React from "react";
 import { Footer, Feature, AboutME, Header } from "./Containers";
 import { CTA, Brand, Navbar } from "./components";
+import "./App.css";
 
 function App() {
   return (

@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@types/react-icons": "^3.0.0",
+    "modulz-css": "^0.6.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

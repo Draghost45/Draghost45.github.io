@@ -1,4 +1,6 @@
-export {default as AboutME} from './aboutME/AboutME';
+export {default as MyProject} from './myProjects/MyProject';
+export {default as Resume} from './resume/Resume';
+export {default as Contanct} from './contact/Contact';
 export {default as Feature} from './features/Features';
 export {default as Footer} from './footer/Footer';
 export {default as Header} from './header/Header';

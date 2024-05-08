@@ -9,10 +9,10 @@ const Menu = () => (
       <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#resume">Resume</a>
+      <a href="#myProject">My Projects</a>
     </p>
     <p>
-      <a href="#myProject">My Projects</a>
+      <a href="#resume">Resume</a>
     </p>
     <p>
       <a href="#contact">Contact Me</a>
@@ -33,10 +33,7 @@ const Navbar = () => {
           <Menu />
         </div>
       </div>
-      <div className="portfolio_navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
-      </div>
+
       <div className="portfolio_navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
@@ -50,17 +47,6 @@ const Navbar = () => {
             size={27}
             onClick={() => setToggleMenu(true)}
           />
-        )}
-        {toggleMenu && (
-          <div className="portfolio_navbar-menu_container scale-up-center">
-            <div className="portfolio_navbar-menu_container-links">
-              <Menu />
-              <div className="portfolio_navbar-menu_container-links-sign">
-                <p>Sign in</p>
-                <button type="button">Sign up</button>
-              </div>
-            </div>
-          </div>
         )}
       </div>
     </div>

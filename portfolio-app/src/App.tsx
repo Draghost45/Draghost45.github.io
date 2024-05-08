@@ -1,6 +1,6 @@
 import React from "react";
-import { Footer, Feature, AboutME, Header } from "./Containers";
-import { CTA, Brand, Navbar } from "./components";
+import { Footer, Feature, MyProject, Header } from "./Containers";
+import { CTA, Navbar } from "./components";
 import "./App.css";
 
 function App() {
@@ -10,8 +10,7 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <Brand />
-      <AboutME />
+      <MyProject />
       <Feature />
       <CTA />
       <Footer />

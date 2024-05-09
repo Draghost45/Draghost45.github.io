@@ -13,9 +13,9 @@ export const Header = () => {
           graduated from the University of Houston—Downtown with a bachelor's
           degree in computer science. I am seeking a software engineering or
           data analysis position and plan to continue my education in the field
-          of artificial intelligence.  My most committed and proficient skills
+          of artificial intelligence. My most committed and proficient skills
           that I have used throughout my experience are Python, C++, Bash, and
-          Bash.  {" "}
+          Bash.    {" "}
         </p>
 
         <div className="portfolio_header-content_input">

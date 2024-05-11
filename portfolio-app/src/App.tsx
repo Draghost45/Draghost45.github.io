@@ -1,8 +1,7 @@
 import React from "react";
-import { Footer, Feature, MyProject, Header } from "./Containers";
+import { Footer, Features, MyProject, Header } from "./Containers";
 import { CTA, Navbar } from "./components";
 import "./App.css";
-
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
         <Header />
       </div>
       <MyProject />
-      <Feature />
+      <Features />
       <CTA />
       <Footer />
     </div>

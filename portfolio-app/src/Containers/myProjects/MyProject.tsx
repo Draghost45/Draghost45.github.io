@@ -1,13 +1,12 @@
 import React from "react";
+import Feature from "../../components/feature/Feature";
 import "./myProject.css";
-import { Feature } from "..";
-import Features from "../features/Features";
 
 export const MyProject = () => {
   return (
     <div className="portfolio_myproject section_margin" id="myproject">
       <div className="portfolio_myproject-feature">
-        <Features
+        <Feature
           title="About my Projects"
           text="These are some of the projects that I have completed or collaborated on during my years studying at the University of Houston, Downtown. The types of projects that I will be showing range from web design to collaborating on a research paper. Feel free to explore or email me for details or the methods that were discussed in any of the projects below. "
         />
@@ -29,8 +28,10 @@ export const MyProject = () => {
         />
         <Feature
           title="Predicting SUMOylation using Pre-trained Protein Language Models "
-          text=""
+          text="dafsdsf"
+          
         />
+        
       </div>
     </div>
   );

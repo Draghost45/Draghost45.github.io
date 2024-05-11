@@ -6,19 +6,19 @@
     background: var(--color-footer);
 
     /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 30% -100%, #6F2DBD 25%, #A663CC 85%, #b298dc 100%);
+    background:-moz-radial-gradient(circle at 30% -100%, #6F2DBD 25%, #665687 85%, #b298dc 100%);
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 30% -100%, #6F2DBD 25%, #A663CC 85%, #b298dc 100%);
+    background:-webkit-radial-gradient(circle at 30% -100%, #6F2DBD 25%, #665687 85%, #b298dc 100%);
 
     /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 30% -100%, #6F2DBD 25%, #A663CC 85%, #b298dc 100%);
+    background:-o-radial-gradient(circle at 30% -100%, #6F2DBD 25%, #665687 85%, #b298dc 100%);
 
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 30% -100%, #6F2DBD 25%, #A663CC 85%, #b298dc 100%);
+    background:-ms-radial-gradient(circle at 30% -100%, #6F2DBD 25%, #665687 85%, #b298dc 100%);
 
     /* global 92%+ browsers support */
-    background:radial-gradient(circle at 30% -100%, #6F2DBD 25%, #A663CC 85%, #b298dc 100%);
+    background:radial-gradient(circle at 30% -100%, #6F2DBD 25%, #665687 85%, #b298dc 100%);
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -27,11 +27,11 @@
     display: flex;
 }
 
-.portfolio_myproject-feature .portfolio_myproject_feature-container_feature{
+.portfolio_myproject-feature .portfolio_features-container_feature{
     margin: 0;
 }
 
-.portfolio_myproject-feature .portfolio_myproject_feature-container_feature-text{
+.portfolio_myproject-feature .portfolio_features-container_feature-text{
     max-width: 700px;
 }
 
@@ -69,4 +69,53 @@
     margin-top: 2rem;
 }
 
+/* Customizing feature component as per needs */
+.portfolio_myproject-container .portfolio_features-container_feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
 
+/* Customizing feature component as per needs */
+.portfolio_myproject-container .portfolio_features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3__whatgpt3-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .gpt3__whatgpt3-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .portfolio_myproject-feature .portfolio_features-container_feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .portfolio_myproject-feature .portfolio_features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .portfolio_myproject-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .portfolio_myproject-container .portfolio_features-container_feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

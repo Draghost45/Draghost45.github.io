@@ -3,9 +3,10 @@ import "./feature.css";
 
 import shopping2 from "../../assets/Shopping_Website_p2.png";
 import shopping3 from "../../assets/Shopping_Website_p3.png";
-//
+/*
+ */
 
-export const Feature = ({ title, text }) => {
+export const Feature = ({ title, text, url }) => {
   return (
     <div className="portfolio_features-container_feature">
       <div className="portfolio_features-container_feature-title">
@@ -13,12 +14,16 @@ export const Feature = ({ title, text }) => {
         <h1>{title}</h1>
       </div>
       <div className="portfolio_features-container_feature-text">
-        <p>{text}</p>
-        
+        <p>
+          {text}
+          {url && (
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              Learn more...
+            </a>
+          )}
+        </p>
       </div>
-      
     </div>
-    
   );
 };
 export default Feature;

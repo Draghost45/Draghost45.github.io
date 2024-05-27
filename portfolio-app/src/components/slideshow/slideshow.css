@@ -6,8 +6,24 @@
     align-items: center;
 }
 
-.portfolio_slideshow-image {
-    
+.portfolio_slideshow-image img {
+    width: 1080px;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
     margin: 2rem 0 1rem;
 
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.portfolio_slideshow-image img.visible{
+    opacity: 1;
+}
+
+button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
 }

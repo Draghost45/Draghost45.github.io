@@ -4,12 +4,14 @@ import "./myProject.css";
 import Slideshow from "../../components/slideshow/Slideshow";
 import shopping1 from "../../assets/Shopping_Website_p1.png";
 import shopping2 from "../../assets/Shopping_Website_p2.png";
-import shopping3 from "../../assets/Shopping_Website_p3.png";
+import secure1 from "../../assets/Secure_Login_p1.png";
+import secure2 from "../../assets/Secure_Login_p2.png";
 
 const images = [
   shopping1,
   shopping2,
-  shopping3,
+  secure1,
+  secure2,
   // Add more image URLs as needed
 ];
 
